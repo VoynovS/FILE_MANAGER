@@ -12,6 +12,8 @@ int main() {
 	LPCSTR pcstr;
 	string folder = "";
 	pcstr = folder.c_str();
+
+
 	/*getline(cin, folder);
 	createF(folder);
 	getline(cin, folder);
@@ -19,19 +21,27 @@ int main() {
 	getline(cin, folder);
 	deleteF(folder);*/
 
-
-	char oldF[50];
+	//”кажите путь к папке
+	char oldF[256];
 	cin >> oldF;
-	char newF[50];
+	//¬ведите название папки
+	char oldF1[256];
+	cin >> oldF1;
+	//”кажите путь к папке
+	char newF[256];
 	cin >> newF;
-	renameFolder(oldF, newF);
+	//”кажите новое название папки
+	char newF1[256];
+	cin >> newF1;
 
-	char oldF1[50];
+	renameFolder(oldF, newF, oldF1, newF1);
+
+	/*char oldF1[50];
 	cin >> oldF1;
 	char newF1[50];
 	cin >> newF1;
 
-	removeF(oldF1, newF1);
+	removeF(oldF1, newF1); */
 
 	//CreateDirectoryA(folder.c_str(), NULL);
 
