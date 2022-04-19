@@ -25,23 +25,23 @@ int main() {
 	char oldF[256];
 	cin >> oldF;
 	//¬ведите название папки
-	char oldF1[256];
-	cin >> oldF1;
+	//char oldF1[256];
+	//cin >> oldF1;
 	//”кажите путь к папке
 	char newF[256];
 	cin >> newF;
 	//”кажите новое название папки
-	char newF1[256];
-	cin >> newF1;
+	//char newF1[256];
+	//cin >> newF1;
 
-	renameFolder(oldF, newF, oldF1, newF1);
+	renameFolder(oldF, newF);
 
 	/*char oldF1[50];
 	cin >> oldF1;
 	char newF1[50];
 	cin >> newF1;
 
-	removeF(oldF1, newF1); */
+	removeFolder(oldF1, newF1); */
 
 	//CreateDirectoryA(folder.c_str(), NULL);
 

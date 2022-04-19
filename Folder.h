@@ -10,8 +10,8 @@ void createF(std::string& str);
 void deleteF(std::string& str);
 
 //Rename the folder 
-void renameFolder(char oldF[], char newF[], char oldF1[], char newF1[]);
+void renameFolder(char oldF[], char newF[]);
 
 
 //Remove folder
-void removeF(char oldF[], char newF[]);
+void removeFolder(char oldF[], char newF[]);
