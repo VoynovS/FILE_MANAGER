@@ -3,14 +3,17 @@
 #include <windows.h>
 #include <string>
 
+
+
+
 //Create the folder
-void createF(std::string& str); 
+void createFolder(std::string& str); 
 
 //Delete the folder
-void deleteF(std::string& str);
+void deleteFolder(std::string& str);
 
 //Rename the folder 
-void renameFolder(char oldF[], char newF[]);
+void renameFolder(std::string& a);
 
 
 //Remove folder
